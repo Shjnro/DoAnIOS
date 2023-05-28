@@ -14,6 +14,8 @@
 		660EB9082A1E135300CDAD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9072A1E135300CDAD97 /* Assets.xcassets */; };
 		660EB90B2A1E135300CDAD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9092A1E135300CDAD97 /* LaunchScreen.storyboard */; };
 		660EB9162A1E135300CDAD97 /* EmployeeManagementSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB9152A1E135300CDAD97 /* EmployeeManagementSystemTests.swift */; };
+		660EBF652A23CAAA008CB257 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EBF642A23CAAA008CB257 /* LoginViewController.swift */; };
+		660EBF672A23CD18008CB257 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 660EBF662A23CD18008CB257 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		660EB9112A1E135300CDAD97 /* EmployeeManagementSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeManagementSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660EB9152A1E135300CDAD97 /* EmployeeManagementSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeManagementSystemTests.swift; sourceTree = "<group>"; };
 		660EB9172A1E135300CDAD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660EBF642A23CAAA008CB257 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		660EBF662A23CD18008CB257 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 				660EB8FC2A1E135200CDAD97 /* EmployeeManagementSystem */,
 				660EB9142A1E135300CDAD97 /* EmployeeManagementSystemTests */,
 				660EB8FB2A1E135200CDAD97 /* Products */,
+				660EBF682A23CFC6008CB257 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +88,11 @@
 				660EB9202A1E136100CDAD97 /* System */,
 				660EB90C2A1E135300CDAD97 /* Info.plist */,
 				660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */,
+				660F01FA2A21E2F300BDBBFA /* Models */,
+				660EB9012A1E135200CDAD97 /* Main.storyboard */,
+				660EB8FF2A1E135200CDAD97 /* ViewController.swift */,
+				660EBF642A23CAAA008CB257 /* LoginViewController.swift */,
+				660EB9202A1E136100CDAD97 /* System */,
 			);
 			path = EmployeeManagementSystem;
 			sourceTree = "<group>";
@@ -103,8 +113,27 @@
 				660EB8FF2A1E135200CDAD97 /* ViewController.swift */,
 				660EB9072A1E135300CDAD97 /* Assets.xcassets */,
 				660EB9092A1E135300CDAD97 /* LaunchScreen.storyboard */,
+				660EB9072A1E135300CDAD97 /* Assets.xcassets */,
+				660EB9092A1E135300CDAD97 /* LaunchScreen.storyboard */,
+				660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */,
+				660EB90C2A1E135300CDAD97 /* Info.plist */,
+				660EBF662A23CD18008CB257 /* GoogleService-Info.plist */,
 			);
 			name = System;
+			sourceTree = "<group>";
+		};
+		660EBF682A23CFC6008CB257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		660F01FA2A21E2F300BDBBFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				660EB90B2A1E135300CDAD97 /* LaunchScreen.storyboard in Resources */,
+				660EBF672A23CD18008CB257 /* GoogleService-Info.plist in Resources */,
 				660EB9082A1E135300CDAD97 /* Assets.xcassets in Resources */,
 				660EB9032A1E135200CDAD97 /* Main.storyboard in Resources */,
 			);
@@ -210,6 +240,7 @@
 			files = (
 				660EB9002A1E135200CDAD97 /* ViewController.swift in Sources */,
 				660EB9062A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld in Sources */,
+				660EBF652A23CAAA008CB257 /* LoginViewController.swift in Sources */,
 				660EB8FE2A1E135200CDAD97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
