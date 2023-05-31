@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660DDB7F2A2709D0002233AB /* EmployeeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB7E2A2709D0002233AB /* EmployeeTableViewController.swift */; };
-		660DDB812A270B12002233AB /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB802A270B12002233AB /* EmployeeTableViewCell.swift */; };
-		660DDB842A270B7C002233AB /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB832A270B7C002233AB /* Employee.swift */; };
-		660E99882A27335600F5AD14 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E99872A27335600F5AD14 /* LoginViewController.swift */; };
+		660A7ADF2A21D56300FC718D /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660A7ADE2A21D56300FC718D /* Job.swift */; };
+		660A7AE12A21D92000FC718D /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660A7AE02A21D92000FC718D /* JobTableViewController.swift */; };
+		660A7AE32A21DB3000FC718D /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660A7AE22A21DB3000FC718D /* JobTableViewCell.swift */; };
+		660AFB862A2189FC00E30056 /* JobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660AFB852A2189FC00E30056 /* JobController.swift */; };
+		660DDB772A26F345002233AB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB6E2A26F345002233AB /* FMDatabaseAdditions.m */; };
+		660DDB782A26F345002233AB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB702A26F345002233AB /* FMDatabaseQueue.m */; };
+		660DDB792A26F345002233AB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB712A26F345002233AB /* FMDatabase.m */; };
+		660DDB7A2A26F345002233AB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB732A26F345002233AB /* FMResultSet.m */; };
+		660DDB7B2A26F345002233AB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB762A26F345002233AB /* FMDatabasePool.m */; };
+		660DDB7D2A26F3BB002233AB /* DatabaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB7C2A26F3BB002233AB /* DatabaseLayer.swift */; };
 		660EB8FE2A1E135200CDAD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */; };
 		660EB9032A1E135200CDAD97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9012A1E135200CDAD97 /* Main.storyboard */; };
 		660EB9062A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */; };
 		660EB9082A1E135300CDAD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9072A1E135300CDAD97 /* Assets.xcassets */; };
 		660EB90B2A1E135300CDAD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9092A1E135300CDAD97 /* LaunchScreen.storyboard */; };
 		660EB9162A1E135300CDAD97 /* EmployeeManagementSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB9152A1E135300CDAD97 /* EmployeeManagementSystemTests.swift */; };
-		66CE12542A26F5D900D05958 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE12532A26F5D900D05958 /* EmployeeViewController.swift */; };
+		66162EE72A262701007AA208 /* SalaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66162EE62A262701007AA208 /* SalaryController.swift */; };
+		66162EE92A262A43007AA208 /* SalaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66162EE82A262A42007AA208 /* SalaryTableViewController.swift */; };
+		66162EEB2A262AC7007AA208 /* SalaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66162EEA2A262AC7007AA208 /* SalaryTableViewCell.swift */; };
+		66162EED2A262C88007AA208 /* Salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66162EEC2A262C88007AA208 /* Salary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		660DDB7E2A2709D0002233AB /* EmployeeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewController.swift; sourceTree = "<group>"; };
-		660DDB802A270B12002233AB /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
-		660DDB832A270B7C002233AB /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
-		660E99872A27335600F5AD14 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = EmployeeManagementSystem/Controllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		660A7ADE2A21D56300FC718D /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		660A7AE02A21D92000FC718D /* JobTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
+		660A7AE22A21DB3000FC718D /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		660AFB852A2189FC00E30056 /* JobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobController.swift; sourceTree = "<group>"; };
+		660DDB6B2A26F344002233AB /* EmployeeManagementSystem-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmployeeManagementSystem-Bridging-Header.h"; sourceTree = "<group>"; };
+		660DDB6C2A26F345002233AB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/FMResultSet.h; sourceTree = "<group>"; };
+		660DDB6D2A26F345002233AB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/FMDatabasePool.h; sourceTree = "<group>"; };
+		660DDB6E2A26F345002233AB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		660DDB6F2A26F345002233AB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		660DDB702A26F345002233AB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		660DDB712A26F345002233AB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/FMDatabase.m; sourceTree = "<group>"; };
+		660DDB722A26F345002233AB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/FMDB.h; sourceTree = "<group>"; };
+		660DDB732A26F345002233AB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/FMResultSet.m; sourceTree = "<group>"; };
+		660DDB742A26F345002233AB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		660DDB752A26F345002233AB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/FMDatabase.h; sourceTree = "<group>"; };
+		660DDB762A26F345002233AB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/FMDatabasePool.m; sourceTree = "<group>"; };
+		660DDB7C2A26F3BB002233AB /* DatabaseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseLayer.swift; sourceTree = "<group>"; };
 		660EB8FA2A1E135200CDAD97 /* EmployeeManagementSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeManagementSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		660EB9022A1E135200CDAD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,7 +67,10 @@
 		660EB9112A1E135300CDAD97 /* EmployeeManagementSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeManagementSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660EB9152A1E135300CDAD97 /* EmployeeManagementSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeManagementSystemTests.swift; sourceTree = "<group>"; };
 		660EB9172A1E135300CDAD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66CE12532A26F5D900D05958 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		66162EE62A262701007AA208 /* SalaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryController.swift; sourceTree = "<group>"; };
+		66162EE82A262A42007AA208 /* SalaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryTableViewController.swift; sourceTree = "<group>"; };
+		66162EEA2A262AC7007AA208 /* SalaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryTableViewCell.swift; sourceTree = "<group>"; };
+		66162EEC2A262C88007AA208 /* Salary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +91,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		660DDB822A270B67002233AB /* DataModels */ = {
+		660A05B32A20C5F500C0DB6C /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
-				660DDB832A270B7C002233AB /* Employee.swift */,
+				660A7ADE2A21D56300FC718D /* Job.swift */,
+				66162EEC2A262C88007AA208 /* Salary.swift */,
 			);
 			path = DataModels;
+			sourceTree = "<group>";
+		};
+		660A05B42A20C62100C0DB6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				660AFB852A2189FC00E30056 /* JobController.swift */,
+				660A7AE02A21D92000FC718D /* JobTableViewController.swift */,
+				66162EE62A262701007AA208 /* SalaryController.swift */,
+				66162EE82A262A42007AA208 /* SalaryTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		660A05B52A20C63400C0DB6C /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				660A7AE22A21DB3000FC718D /* JobTableViewCell.swift */,
+				66162EEA2A262AC7007AA208 /* SalaryTableViewCell.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		660DDB682A26F2CF002233AB /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				660DDB752A26F345002233AB /* FMDatabase.h */,
+				660DDB712A26F345002233AB /* FMDatabase.m */,
+				660DDB742A26F345002233AB /* FMDatabaseAdditions.h */,
+				660DDB6E2A26F345002233AB /* FMDatabaseAdditions.m */,
+				660DDB6D2A26F345002233AB /* FMDatabasePool.h */,
+				660DDB762A26F345002233AB /* FMDatabasePool.m */,
+				660DDB6F2A26F345002233AB /* FMDatabaseQueue.h */,
+				660DDB702A26F345002233AB /* FMDatabaseQueue.m */,
+				660DDB722A26F345002233AB /* FMDB.h */,
+				660DDB6C2A26F345002233AB /* FMResultSet.h */,
+				660DDB732A26F345002233AB /* FMResultSet.m */,
+				660DDB6A2A26F2F8002233AB /* src */,
+				660DDB6B2A26F344002233AB /* EmployeeManagementSystem-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		660DDB692A26F2E2002233AB /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				660DDB7C2A26F3BB002233AB /* DatabaseLayer.swift */,
+			);
+			path = DAL;
+			sourceTree = "<group>";
+		};
+		660DDB6A2A26F2F8002233AB /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		660EB8F12A1E135200CDAD97 = {
@@ -95,9 +176,11 @@
 		660EB8FC2A1E135200CDAD97 /* EmployeeManagementSystem */ = {
 			isa = PBXGroup;
 			children = (
-				660DDB822A270B67002233AB /* DataModels */,
-				66CE12522A26F58800D05958 /* Controllers */,
-				66CE12512A26F57300D05958 /* Controls */,
+				660DDB692A26F2E2002233AB /* DAL */,
+				660DDB682A26F2CF002233AB /* FMDB */,
+				660A05B52A20C63400C0DB6C /* Controls */,
+				660A05B42A20C62100C0DB6C /* Controllers */,
+				660A05B32A20C5F500C0DB6C /* DataModels */,
 				660EB9012A1E135200CDAD97 /* Main.storyboard */,
 				660EB9202A1E136100CDAD97 /* System */,
 			);
@@ -116,31 +199,13 @@
 		660EB9202A1E136100CDAD97 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */,
 				660EB90C2A1E135300CDAD97 /* Info.plist */,
+				660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */,
 				660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */,
 				660EB9072A1E135300CDAD97 /* Assets.xcassets */,
 				660EB9092A1E135300CDAD97 /* LaunchScreen.storyboard */,
 			);
 			name = System;
-			sourceTree = "<group>";
-		};
-		66CE12512A26F57300D05958 /* Controls */ = {
-			isa = PBXGroup;
-			children = (
-				660DDB802A270B12002233AB /* EmployeeTableViewCell.swift */,
-			);
-			path = Controls;
-			sourceTree = "<group>";
-		};
-		66CE12522A26F58800D05958 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				66CE12532A26F5D900D05958 /* EmployeeViewController.swift */,
-				660DDB7E2A2709D0002233AB /* EmployeeTableViewController.swift */,
-				660E99872A27335600F5AD14 /* LoginViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +258,7 @@
 				TargetAttributes = {
 					660EB8F92A1E135200CDAD97 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					660EB9102A1E135300CDAD97 = {
 						CreatedOnToolsVersion = 10.3;
@@ -244,13 +310,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660E99882A27335600F5AD14 /* LoginViewController.swift in Sources */,
+				660DDB7D2A26F3BB002233AB /* DatabaseLayer.swift in Sources */,
+				660AFB862A2189FC00E30056 /* JobController.swift in Sources */,
+				66162EE72A262701007AA208 /* SalaryController.swift in Sources */,
+				660DDB7A2A26F345002233AB /* FMResultSet.m in Sources */,
+				660DDB792A26F345002233AB /* FMDatabase.m in Sources */,
 				660EB9062A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld in Sources */,
-				660DDB842A270B7C002233AB /* Employee.swift in Sources */,
-				660DDB7F2A2709D0002233AB /* EmployeeTableViewController.swift in Sources */,
-				66CE12542A26F5D900D05958 /* EmployeeViewController.swift in Sources */,
-				660DDB812A270B12002233AB /* EmployeeTableViewCell.swift in Sources */,
+				66162EED2A262C88007AA208 /* Salary.swift in Sources */,
+				660A7AE32A21DB3000FC718D /* JobTableViewCell.swift in Sources */,
+				660DDB7B2A26F345002233AB /* FMDatabasePool.m in Sources */,
+				660DDB782A26F345002233AB /* FMDatabaseQueue.m in Sources */,
 				660EB8FE2A1E135200CDAD97 /* AppDelegate.swift in Sources */,
+				66162EE92A262A43007AA208 /* SalaryTableViewController.swift in Sources */,
+				660DDB772A26F345002233AB /* FMDatabaseAdditions.m in Sources */,
+				660A7ADF2A21D56300FC718D /* Job.swift in Sources */,
+				66162EEB2A262AC7007AA208 /* SalaryTableViewCell.swift in Sources */,
+				660A7AE12A21D92000FC718D /* JobTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EmployeeManagementSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -420,6 +496,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.tdc.EmployeeManagementSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmployeeManagementSystem/FMDB/EmployeeManagementSystem-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EmployeeManagementSystem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -437,6 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.tdc.EmployeeManagementSystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmployeeManagementSystem/FMDB/EmployeeManagementSystem-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
