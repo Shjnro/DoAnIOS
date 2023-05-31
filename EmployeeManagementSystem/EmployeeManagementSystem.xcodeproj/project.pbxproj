@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660EB8FE2A1E135200CDAD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */; };
-		660EB9002A1E135200CDAD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB8FF2A1E135200CDAD97 /* ViewController.swift */; };
 		660DDB7F2A2709D0002233AB /* EmployeeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB7E2A2709D0002233AB /* EmployeeTableViewController.swift */; };
 		660DDB812A270B12002233AB /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB802A270B12002233AB /* EmployeeTableViewCell.swift */; };
 		660DDB842A270B7C002233AB /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660DDB832A270B7C002233AB /* Employee.swift */; };
+		660E99882A27335600F5AD14 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E99872A27335600F5AD14 /* LoginViewController.swift */; };
 		660EB8FE2A1E135200CDAD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */; };
 		660EB9032A1E135200CDAD97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9012A1E135200CDAD97 /* Main.storyboard */; };
 		660EB9062A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */; };
 		660EB9082A1E135300CDAD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9072A1E135300CDAD97 /* Assets.xcassets */; };
 		660EB90B2A1E135300CDAD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660EB9092A1E135300CDAD97 /* LaunchScreen.storyboard */; };
 		660EB9162A1E135300CDAD97 /* EmployeeManagementSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EB9152A1E135300CDAD97 /* EmployeeManagementSystemTests.swift */; };
-		660EBF652A23CAAA008CB257 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660EBF642A23CAAA008CB257 /* LoginViewController.swift */; };
-		660EBF672A23CD18008CB257 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 660EBF662A23CD18008CB257 /* GoogleService-Info.plist */; };
 		66CE12542A26F5D900D05958 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE12532A26F5D900D05958 /* EmployeeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,12 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		660EB8FA2A1E135200CDAD97 /* EmployeeManagementSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeManagementSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		660EB8FF2A1E135200CDAD97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		660DDB7E2A2709D0002233AB /* EmployeeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewController.swift; sourceTree = "<group>"; };
 		660DDB802A270B12002233AB /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 		660DDB832A270B7C002233AB /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		660E99872A27335600F5AD14 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = EmployeeManagementSystem/Controllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		660EB8FA2A1E135200CDAD97 /* EmployeeManagementSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeManagementSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		660EB9022A1E135200CDAD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,8 +45,6 @@
 		660EB9112A1E135300CDAD97 /* EmployeeManagementSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeManagementSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		660EB9152A1E135300CDAD97 /* EmployeeManagementSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeManagementSystemTests.swift; sourceTree = "<group>"; };
 		660EB9172A1E135300CDAD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		660EBF642A23CAAA008CB257 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		660EBF662A23CD18008CB257 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66CE12532A26F5D900D05958 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +80,6 @@
 				660EB8FC2A1E135200CDAD97 /* EmployeeManagementSystem */,
 				660EB9142A1E135300CDAD97 /* EmployeeManagementSystemTests */,
 				660EB8FB2A1E135200CDAD97 /* Products */,
-				660EBF682A23CFC6008CB257 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +95,6 @@
 		660EB8FC2A1E135200CDAD97 /* EmployeeManagementSystem */ = {
 			isa = PBXGroup;
 			children = (
-				660F01FA2A21E2F300BDBBFA /* Models */,
-				660EB9012A1E135200CDAD97 /* Main.storyboard */,
-				660EB8FF2A1E135200CDAD97 /* ViewController.swift */,
-				660EBF642A23CAAA008CB257 /* LoginViewController.swift */,
 				660DDB822A270B67002233AB /* DataModels */,
 				66CE12522A26F58800D05958 /* Controllers */,
 				66CE12512A26F57300D05958 /* Controls */,
@@ -128,12 +116,6 @@
 		660EB9202A1E136100CDAD97 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */,
-				660EB9072A1E135300CDAD97 /* Assets.xcassets */,
-				660EB9092A1E135300CDAD97 /* LaunchScreen.storyboard */,
-				660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */,
-				660EB90C2A1E135300CDAD97 /* Info.plist */,
-				660EBF662A23CD18008CB257 /* GoogleService-Info.plist */,
 				660EB9042A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld */,
 				660EB90C2A1E135300CDAD97 /* Info.plist */,
 				660EB8FD2A1E135200CDAD97 /* AppDelegate.swift */,
@@ -143,18 +125,6 @@
 			name = System;
 			sourceTree = "<group>";
 		};
-		660EBF682A23CFC6008CB257 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		660F01FA2A21E2F300BDBBFA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 		66CE12512A26F57300D05958 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +138,7 @@
 			children = (
 				66CE12532A26F5D900D05958 /* EmployeeViewController.swift */,
 				660DDB7E2A2709D0002233AB /* EmployeeTableViewController.swift */,
+				660E99872A27335600F5AD14 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -254,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				660EB90B2A1E135300CDAD97 /* LaunchScreen.storyboard in Resources */,
-				660EBF672A23CD18008CB257 /* GoogleService-Info.plist in Resources */,
 				660EB9082A1E135300CDAD97 /* Assets.xcassets in Resources */,
 				660EB9032A1E135200CDAD97 /* Main.storyboard in Resources */,
 			);
@@ -274,9 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660EB9002A1E135200CDAD97 /* ViewController.swift in Sources */,
-				660EB9062A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld in Sources */,
-				660EBF652A23CAAA008CB257 /* LoginViewController.swift in Sources */,
+				660E99882A27335600F5AD14 /* LoginViewController.swift in Sources */,
 				660EB9062A1E135200CDAD97 /* EmployeeManagementSystem.xcdatamodeld in Sources */,
 				660DDB842A270B7C002233AB /* Employee.swift in Sources */,
 				660DDB7F2A2709D0002233AB /* EmployeeTableViewController.swift in Sources */,
